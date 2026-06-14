@@ -8,6 +8,7 @@ Simple Todo API built with FastAPI.
 * Get all tasks
 * Get task by ID
 * Create task
+* Put task by ID
 * Delete task
 
 ## Technologies
@@ -29,6 +30,10 @@ GET /tasks/{id}
 ### Create task
 
 POST /tasks
+
+### Put task
+
+PUT /tasks/{id}
 
 ### Delete task
 
